@@ -7,7 +7,7 @@ const router = createRouter({
 	history: createWebHistory(),
 	routes: [
 		{
-			path: "/",
+			path: "/home",
 			component: HelloWorldVue,
 		},
 	] as RouteRecordRaw[],
